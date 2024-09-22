@@ -33,6 +33,24 @@ body{
     color: var(--cor-terciaria);
     text-decoration: none;
 }
+
+.encriptador{
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.projetos{
+
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
 .apresentacao{
     padding: 5% 15%;
     display: flex;
@@ -65,10 +83,23 @@ body{
     align-items: center;
     gap: 32px;
 }
+
+
 .apresentacao__links__subtitulo{
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 24px;
+}
+
+.imagem-criptador{
+    display: flex;
+    background-color: transparent;
+    width: 40px;
+    height: auto;
+    background-size: cover;
+    background-position: right 200px;
+    text-decoration: none;
+
 }
 .apresentacao__links__link{
     display: flex;
@@ -130,3 +161,4 @@ body{
         width: auto;
     }
 }
+
